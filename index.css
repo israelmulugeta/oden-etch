@@ -1,0 +1,22 @@
+.grand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.size{
+    display: flex;
+    align-items: center;
+}
+.bigButtons{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container{
+    width: 500px;
+    height: 350px;
+    background-color: aqua;
+}
