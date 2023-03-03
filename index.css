@@ -8,6 +8,7 @@
 .size{
     display: flex;
     align-items: center;
+    
 }
 .bigButtons{
     display:flex;
@@ -16,7 +17,30 @@
 }
 
 .container{
-    width: 500px;
-    height: 350px;
-    background-color: aqua;
+    max-width: 500px;
+    max-height: 350px;
+    min-width: 500px;
+    min-height: 350px;
+    border-color: cadetblue;
+    border: 10px;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width:280px;
+}
+.box{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex:1;
+}
+.boxes{
+    width: auto;
+    height: auto;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    flex:1;
 }
